@@ -1,7 +1,17 @@
 aid: sciket
 name: Sciket
-description: Sciket is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sciket (科研市集, operated by STAREK Scientific / 勢得科研股份有限公司) is Taiwan's specialized
+  online marketplace for scientific research and technology procurement. The platform
+  integrates thousands of global suppliers and millions of products — laboratory
+  consumables and glassware, instruments and equipment, chemical reagents and materials,
+  and industrial tools and hardware — into a single digitized purchasing, sourcing, and
+  fast-shipment service for research labs, academic institutions, quality-control teams,
+  and manufacturers. It offers enterprise purchasing, global sourcing, PunchOut system
+  integration, monthly invoicing, and laboratory-construction services. Sciket runs an
+  internal storefront/API host (api.sciket.com) but does not publish a public developer
+  API program, documentation, or SDKs. This profile was surfaced as a 500 Global portfolio
+  company and enriched with verified identity and domain-security data.
 url: https://raw.githubusercontent.com/api-evangelist/sciket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.sciket.com/img/jpg/og.jpg
 tags:
 - Company
+- E-commerce
+- Marketplace
+- Scientific Research
+- Laboratory Supplies
+- Procurement
+- Taiwan
+- B2B
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://sciket.com
+- type: Support
+  url: https://www.sciket.com/faq/1
+- type: PrivacyPolicy
+  url: https://www.sciket.com/policy
+- type: TermsOfService
+  url: https://www.sciket.com/purchase
+- type: SignUp
+  url: https://www.sciket.com/register
+- type: Login
+  url: https://www.sciket.com/login
+- type: Blog
+  url: https://www.sciket.com/blog
+- type: DomainSecurity
+  url: security/sciket-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

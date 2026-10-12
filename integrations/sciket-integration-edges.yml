@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/sciket/integrations
+- https://n8n.io/integrations/sciket/
+- https://composio.dev/toolkits/sciket
+- https://monid.ai/tools/sciket
+checked:
+- https://composio.dev/toolkits/sciket
+- https://monid.ai/tools/sciket
+- https://n8n.io/integrations/sciket/
+- https://zapier.com/apps/sciket/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
